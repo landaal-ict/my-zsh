@@ -14,3 +14,12 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 
 cp -R .p10k.zsh /$HOME/.p10k.zsh
 cp -R .zshrc /$HOME/.zshrc
+
+# make zsh default.
+echo
+echo
+echo give your root pass and answer the next question with /bin/zsh
+echo
+echo
+echo
+chsh $USER
