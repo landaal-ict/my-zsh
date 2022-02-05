@@ -52,3 +52,7 @@ alias upg='sudo apt upgrade'
 alias autorm='sudo apt autoremove'
 alias search='sudo apt search'
 
+# VPN
+
+alias vpn='sudo wg-quick up vpn'
+alias vpnoff='sudo wg-quick dowm vpn'
