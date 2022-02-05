@@ -55,4 +55,4 @@ alias search='sudo apt search'
 # VPN
 
 alias vpn='sudo wg-quick up vpn'
-alias vpnoff='sudo wg-quick dowm vpn'
+alias vpnoff='sudo wg-quick down vpn'
