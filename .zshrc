@@ -47,10 +47,9 @@ alias neo='neofetch'
 alias x='exit'
 # Alias APT
 
-alias up='sudo apt update'
-alias upg='sudo apt upgrade'
-alias autorm='sudo apt autoremove'
-alias search='sudo apt search'
+alias up='sudo zypper dup'
+alias snapshot='sudo snapper list'
+alias rollback='sudo snapper rollback'
 
 # VPN
 
