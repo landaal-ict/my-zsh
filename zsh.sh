@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #install deps
-sudo zypper in zsh zsh-syntax-highlighting git
+sudo apt install zsh zsh-syntax-highlighting git
 
 #create
 touch "$HOME/.cache/zshhistory"
